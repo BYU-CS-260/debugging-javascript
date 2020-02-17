@@ -45,7 +45,7 @@ along to practice using the Chrome DevTools to debug JavaScript.
 
 ## Practice
 
-This repository contains a broken Javascript program. Clone the repo and run a
+This repository contains some broken Javascript program. Clone the repo and run a
 local web browser:
 
 ```
@@ -53,14 +53,17 @@ python3 -m http.server
 python2 -m SimpleHTTPServer
 ```
 
-Then, use the Developer Tools in your browser of choice to debug the program, using
+Then, use the Developer Tools in your browser of choice to debug the programs, using
 breakpoints and examining the code as it runs. Do NOT insert console.log statements!
 Follow the best practices described in the videos above.
 
-This code calls a [Numbers API](http://numbersapi.com/). You'll want to be familiar
-with the URL structure at the link above.
+The first program calls a [Numbers API](http://numbersapi.com/). You'll want to be familiar
+with the URL structure at the link above. Solve all the bugs and modify the code so that all functionality works.
 
-Solve all the bugs and modify the code so that it works.
+The second program calls a [Lorem Picsum API](https://picsum.photos/). You'll want to be
+familiar with the URL structure at the link above. Solve all the bugs and modify the code so that all functionality works. Pay attention to all features, including blur.
+
+
 
 ## Closing Advice
 
