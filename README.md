@@ -45,14 +45,7 @@ along to practice using the Chrome DevTools to debug JavaScript.
 
 ## Practice
 
-This repository contains some broken Javascript program. Clone the repo and run a
-local web browser:
-
-```
-python3 -m http.server
-python2 -m SimpleHTTPServer
-```
-
+This repository contains some broken Javascript program. Clone the repo to your Cloud9 development environment.
 Then, use the Developer Tools in your browser of choice to debug the programs, using
 breakpoints and examining the code as it runs. Do NOT insert console.log statements!
 Follow the best practices described in the videos above.
