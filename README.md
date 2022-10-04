@@ -50,8 +50,10 @@ Then, use the Developer Tools in your browser of choice to debug the programs, u
 breakpoints and examining the code as it runs. Do NOT insert console.log statements!
 Follow the best practices described in the videos above.
 
-The first program calls a [Numbers API](http://numbersapi.com/). You'll want to be familiar
-with the URL structure at the link above. Solve all the bugs and modify the code so that all functionality works.
+The first [program](numbers.html) calls a [Numbers API](http://numbersapi.com/). You'll want to be familiar
+with the URL structure at the link above. Solve all the bugs and modify the code so that all functionality works.  
+Notice that the Numbers API uses http.  We have created a translator for the API at https://csonline.byu.edu/numbers 
+that is used in the [javascript file](script-numbers.js).
 
 The second program calls a [Lorem Picsum API](https://picsum.photos/). You'll want to be
 familiar with the URL structure at the link above. Solve all the bugs and modify the code so that all functionality works. Pay attention to all features, including blur.
