@@ -11,7 +11,8 @@ function onClick(e) {
   }
 
   // setup URL
-  let url = "http://numberapi.com/" + number + "/" + "type" + "?json";
+  // The cslone.byu.edu forwards to the numbers API but converts it to https
+  let url = "https://csonline.byu.edu/numbers/" + number + "/" + "type" + "?json";
   // call API
   fetch(url)
     .then(function(response) {
